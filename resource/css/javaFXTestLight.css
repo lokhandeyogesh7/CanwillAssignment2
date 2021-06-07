@@ -1,0 +1,71 @@
+.header-background{
+	-fx-background-color:#FFF;
+}
+
+.center-background{
+	-fx-background-color:#EDF2F6;
+}
+
+.footer-background{
+	-fx-background-color:#607a8c;
+}
+
+.text-primary-bold{
+	-fx-text-fill:#00877c;
+	-fx-font-size: 24px;
+	-fx-font-weight:bold;
+}
+
+.text-primary{
+	-fx-text-fill:#00877c; 
+	-fx-font-size: 16px;
+}
+
+.text-primary-bg{
+	-fx-text-fill:#00877c; 
+	-fx-font-size: 20px;
+}
+
+.text-white{
+	-fx-text-fill:#FFF;
+}
+
+.btn-light{
+	-fx-background-color:#944df7; 
+	-fx-text-fill:#FFF;
+	-fx-font-size:14px;
+	-fx-background-radius:5px;
+	-fx-cursor: hand;
+}
+
+.btn-dark{
+	-fx-background-color:#6b6b6b; 
+	-fx-text-fill:#FFF;
+	-fx-font-size:14px;
+	-fx-background-radius:5px;
+	-fx-cursor: hand;
+}
+
+.btn-primary {
+	-fx-background-color:#745cc2; 
+	-fx-text-fill:#FFF; 
+	-fx-font-size:15px;
+	-fx-background-radius:5px;
+	-fx-cursor: hand;
+}
+
+.btn-primary:pressed {
+	-fx-background-color:#513f8a; 
+	-fx-text-fill:#FFF; 
+	-fx-font-size:15px;
+	-fx-background-radius:5px;
+	-fx-cursor: hand;
+	-fx-effect: dropshadow(three-pass-box, #bbb, 2, 0, 2, 2)
+}
+
+.white-box{
+	-fx-background-color:#FFF; 
+	-fx-background-radius:10;
+	-fx-effect: dropshadow(three-pass-box, #bbb, 2, 0, 2, 2)
+}
+
